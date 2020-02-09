@@ -1,0 +1,12 @@
+Historic Trades data from the polygon.io API, endpoint = https://api.polygon.io/v2/ticks/stocks/trades/{symbol}/{date}?timestamp={timestamp}&limit={limit}&apiKey={api_key}
+
+t = SIP timestamp of trade | nanoseconds since epoch | np.int64
+q = Sequence number                                  | np.int64
+i = Trade ID                                         | np.int64
+x = Exchange ID                                      | np.int64
+s = Volume of the trade | shares of stock            | np.int64
+c = Conditions of trade | list of condition codes    | list of np.int64
+p = Price of the trade  | price per share            | np.in64
+z = Tape where trade occurred                        | np.int64
+
+For more information on condition codes, see https://polygon.io/glossary/us/stocks/conditions-indicators
