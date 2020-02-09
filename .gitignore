@@ -1,4 +1,5 @@
 api-key.txt
 Raw/
-OHLCV/
+Regular-Trading-Hours/
 .DS_Store
+.ipynb_checkpoints/
