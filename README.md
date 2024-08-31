@@ -1,2 +1,2 @@
 # Unreal-Trading
-Reinforcement Learning and Generative Adversarial Networks applied to learn market microstructures
+Data Analytics 401 Final Project: Reinforcement Learning on historical market pricing data
